@@ -106,11 +106,14 @@ function renderPageNumbers() {
 
             if (currentPageNumber === item.number.toString()) {
                 pgnbLink.classList.add('selected');
+                pgnbLink.addEventListener('click', (event) => {
+                    event.preventDefault();
+                });
+            } else {
+                pgnbLink.addEventListener('click', () => {
+                    localStorage.setItem('selectedPageNumber', item.number);
+                });
             }
-
-            pgnbLink.addEventListener('click', () => {
-                localStorage.setItem('selectedPageNumber', item.number);
-            });
 
             pageNumberP.appendChild(pgnbLink);
             pageNumber.appendChild(pageNumberP);
