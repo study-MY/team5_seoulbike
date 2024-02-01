@@ -1,4 +1,4 @@
-.inner-notice {
+.in-notice {
     text-align: center;
 
     h3 {
@@ -44,7 +44,7 @@
     .notice-num_t_d {
         display: flex;
         justify-content: space-between;
-        padding: 70px 24px;
+        padding: 60px 24px;
 
         .notice-num_t {
             display: flex;
@@ -77,32 +77,6 @@
             color: $txtDefault;
         }
     }
-
-    // .select_form {
-    //     display: flex;
-    //     justify-content: space-between;
-    //     align-items: center;
-    //     margin: 0 54px 0 0;
-    //     padding: 0 20px 0 0;
-    //     border-radius: 29px;
-    //     background-color: $white;
-
-    //     .notice-select_txt {
-    //         background-color: transparent;
-    //         border-radius: 29px;
-    //         padding: 14px 90px 14px 20px;
-    //         color: $gray7;
-    //         font-weight: 600;
-    //     }
-    //     .notice-select_btn {
-    //         content: '';
-    //         display: block;
-    //         background: url(../../images/sub_notice/arrow_down.png) no-repeat 0px 0px;
-    //         background-size: 25px 25px;
-    //         width: 25px;
-    //         height: 25px;
-    //     }
-    // }
 
     .search_form {
         display: flex;
@@ -165,7 +139,7 @@
         margin: 0;
         padding: 0 24px;
     }
-    .inner-notice {
+    .in-notice {
         text-align: center;
 
         .hd-n {
@@ -216,9 +190,8 @@
         .notice-num_t_d {
             display: flex;
             justify-content: space-between;
-            padding: 30px 12px;
-            gap: 10px;
-            flex-direction: column;
+            padding: 30px 13px;
+            gap: 20px;
     
             .notice-num_t {
                 display: flex;
