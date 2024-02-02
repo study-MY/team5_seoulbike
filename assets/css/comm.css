@@ -1608,6 +1608,7 @@ table tbody tr .add-right-line {
 }
 .in-notice .notice-num_t_d .notice-arr_text a {
   font-weight: 400;
+  font-size: 20px;
 }
 .in-notice .notice-num_t_d .notice-arr_text_c a {
   color: #0f4c79;
@@ -1664,15 +1665,15 @@ table tbody tr .add-right-line {
   font-weight: 700;
   padding: 0 0 70px 0;
 }
-.in-notice .pagenumber .pagenum a:hover {
-  color: #7E8E9A;
-}
-.in-notice .pagenumber .selected {
+.in-notice .pagenumber .pagenum .selected {
   color: #30E291;
   cursor: text;
 }
-.in-notice .pagenumber .selected a:hover {
+.in-notice .pagenumber .pagenum .selected a:hover {
   color: #30E291;
+}
+.in-notice .pagenum a:hover {
+  color: #7E8E9A;
 }
 
 @media screen and (max-width: 375px) {

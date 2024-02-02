@@ -64,6 +64,7 @@
 
             a{
                 font-weight: 400;
+                font-size: 20px;
             }
         }
 
@@ -130,19 +131,21 @@
         padding: 0 0 70px 0;
 
         .pagenum {
-
-            a:hover {
-                color: $subColor2;
-            }
-        }
-
-        .selected {
-            color: $primary;
-            cursor: text;
+            
+            .selected {
+                color: $primary;
+                cursor: text;
 
             a:hover {
                 color: $primary;
             }
+            }
+        }
+    }
+    .pagenum {
+
+        a:hover {
+            color: $subColor2;
         }
     }
 }
