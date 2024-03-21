@@ -3750,6 +3750,7 @@ table tbody tr .add-right-line {
   z-index: 1;
   padding: 40px;
   background-color: #fff;
+  border-right: 1px solid #e8e8e8;
 }
 #header img {
   display: block;
